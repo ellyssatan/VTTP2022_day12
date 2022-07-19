@@ -1,4 +1,4 @@
-package com.example.day12example;
+package vttp.day12example;
 
 // Model class
 public class Item {

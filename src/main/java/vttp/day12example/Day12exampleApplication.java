@@ -1,4 +1,4 @@
-package com.example.day12example;
+package vttp.day12example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

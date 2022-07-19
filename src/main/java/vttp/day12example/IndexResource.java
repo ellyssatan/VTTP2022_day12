@@ -1,4 +1,4 @@
-package com.example.day12example;
+package vttp.day12example;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -14,7 +14,7 @@ public class IndexResource {
     @GetMapping(produces = {"text/html"})
     public String index(Model model) {
         model.addAttribute("currTime", (new Date()).toString());
-        
+
         Calendar cal = Calendar.getInstance();
         model.addAttribute("currHour", cal.get(Calendar.HOUR_OF_DAY));
 
